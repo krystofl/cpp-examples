@@ -33,6 +33,8 @@ To get started with compiling everything, you might want to run something like
     make debug-cmake
     make debug
 
+All build artifacts (including executables) will be generated to `build-debug`.
+
 Uses [GoogleTest](https://github.com/google/googletest) for unit tests.
 To run them (for the debug build), run
 
