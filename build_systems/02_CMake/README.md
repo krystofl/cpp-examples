@@ -2,6 +2,10 @@
 
 Shows how to use CMake to compile a C++ project with external dependencies.
 
+To install the build tools, run
+
+    sudo apt-get install gcc make cmake wget tar
+
 Debug executables are built in the `build-debug` folder;
 Release executables in the `build-release` folder.
 
