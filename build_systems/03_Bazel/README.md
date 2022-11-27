@@ -12,8 +12,10 @@ For formatting BUILD files, also install buildifier:
 - copy the executable as `buildifier` to `/usr/local/bin/`
 
 
-## Official Tutorial
+## Official Tutorials
 - [Getting started with building C++ projects with Bazel](https://bazel.build/start/cpp)
 - [Common C++ build use cases](https://bazel.build/tutorials/cpp-use-cases)
+- [C++ Toolchain Configuration Tutorial](https://bazel.build/tutorials/ccp-toolchain-config) and [Reference](https://bazel.build/docs/cc-toolchain-config-reference)
 - [How to visualize the dependency graph](https://blog.bazel.build/2015/06/17/visualize-your-build.html)
 - [Working with external dependencies](https://bazel.build/docs/external)
+- [How to pass flags to the C++ compiler](https://bazel.build/docs/user-manual#cxxopt) and [linker](https://bazel.build/docs/user-manual#linkopt)
