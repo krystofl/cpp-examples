@@ -19,3 +19,10 @@ For formatting BUILD files, also install buildifier:
 - [How to visualize the dependency graph](https://blog.bazel.build/2015/06/17/visualize-your-build.html)
 - [Working with external dependencies](https://bazel.build/docs/external)
 - [How to pass flags to the C++ compiler](https://bazel.build/docs/user-manual#cxxopt) and [linker](https://bazel.build/docs/user-manual#linkopt)
+
+To run bazel from a docker container to ensure consistent builds across different machines/developers, consider using [dazel](https://github.com/nadirizr/dazel)
+
+
+# Examples in this repo
+
+Run a python script from bazel: `bazel run //:hello_world`
